@@ -216,7 +216,8 @@ openAbout = () => {
   gsap.to(sections, { display: 'flex', backgroundColor: backgroundSection}, 0);
   gsap.to(sectors, { display: 'none' }, 0);
   gsap.to(about, { display: 'flex' }, 0);
-  gsap.to(htmlTag, { overflow: 'visible' }, 0)
+  gsap.to(htmlTag, { overflow: 'visible' }, 0);
+  gsap.to(body, { overflow: 'visible' }, 0);
   closeMobileMenu();
   backgroundMenu();
   parallaxOff();
