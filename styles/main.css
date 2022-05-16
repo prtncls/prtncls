@@ -375,10 +375,10 @@ body {
 
 .sections .montage .modal .close-modal-button {
   position: absolute;
-  top: 15px;
-  right: 35px;
+  top: 1%;
+  right: 1%;
   color: #f1f1f1;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -591,10 +591,14 @@ body {
   }
   .menuDesktop .boxListDesktop ul li a:hover {
     color: var(--mainColor);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .menuDesktop .boxListDesktop ul li a:active {
     text-decoration: line-through;
     color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .home {
     position: absolute;
