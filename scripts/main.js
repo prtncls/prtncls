@@ -61,7 +61,7 @@ let closeModalButton = document.querySelector('.close-modal-button');
 /* Changing the background image, the main color and the secondary color depending on the hour of the
 day. */
 changeOfArt = () => {
-  if(hour == 0 && hour < 6) {//cambiar a diseño 1
+  if(hour >= 0 && hour < 6) {//cambiar a diseño 1
     document.body.style.backgroundImage = "url('./images/bg_1.jpg')";
     root.style.setProperty('--mainColor', '#158441');
     secColor = '#29A359';
